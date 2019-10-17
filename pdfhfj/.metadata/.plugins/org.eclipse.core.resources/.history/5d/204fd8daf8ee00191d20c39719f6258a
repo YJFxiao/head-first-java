@@ -1,0 +1,28 @@
+package c14;
+
+import java.util.ArrayList;
+
+import javax.swing.*;
+
+public class QuizCardPlayer {
+	private JTextArea display;
+	private JTextArea answer;
+	private ArrayList<QuizCard> cardList;
+	private QuizCard currentCard;
+	private int currentCardIndex;
+	private JFrame frame;
+	private JButton nextButton;
+	private boolean isShowAnswer;
+	
+	public static void main(String[] args) {
+		QuizCardPlayer reader=new QuizCardPlayer();
+		reader.go();
+	}
+
+	private void go() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}

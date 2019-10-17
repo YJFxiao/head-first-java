@@ -1,0 +1,10 @@
+package c13;
+
+public class BeatBox2 {
+
+	public void buildGUI() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package appendixA;
+
+public class RemoteReader implements Runnable {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,30 @@
+package c14;
+
+import javax.swing.JTextArea;
+
+public class QuizCard {
+
+	private JTextArea question;
+	private JTextArea answer;
+	
+	public QuizCard(JTextArea question, JTextArea answer) {
+		super();
+		this.question = question;
+		this.answer = answer;
+	}
+
+	public QuizCard(String text, String text2) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public JTextArea getQuestion() {
+		// TODO Auto-generated method stub
+		return question;
+	}
+
+	public JTextArea getAnswer() {
+		// TODO Auto-generated method stub
+		return answer;
+	}
+
+}

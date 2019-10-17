@@ -1,0 +1,17 @@
+package c14;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class NextCardListener implements ActionListener {
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		QuizCard card=new QuizCard(question.getText(),answer.getText());
+		cardList.add(card);
+		clearCard();
+
+	}
+
+}
